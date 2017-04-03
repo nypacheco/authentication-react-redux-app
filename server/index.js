@@ -15,6 +15,7 @@ app.use(webpackMiddleware(compiler, {
     publicPath: webpackConfig.output.publicPath,
     noInfo: true
 }));
+
 app.use(webpackHotMiddleware(compiler));
 
 app.get("/*", (req, res) => {
