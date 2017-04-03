@@ -13,7 +13,6 @@ export default {
         publicPath: '/'
     },
     plugins: [
-        new webpack.NoErrorsPlugin(),
         new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.HotModuleReplacementPlugin()
     ],
