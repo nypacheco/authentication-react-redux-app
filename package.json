@@ -31,9 +31,12 @@
   },
   "dependencies": {
     "axios": "^0.16.0",
+    "bcrypt": "^1.0.2",
     "body-parser": "^1.17.1",
+    "bookshelf": "^0.10.3",
     "classnames": "^2.2.5",
     "express": "^4.15.2",
+    "pg": "^6.1.5",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.3",
